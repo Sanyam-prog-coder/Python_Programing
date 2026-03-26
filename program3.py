@@ -1,11 +1,11 @@
-name = "Sanyam"
-age = 23
-price = 10.000
+def Display():
+    i = 5
+    while(i != 0):
+        print(i)
+        i = i - 1
 
-age2 = age
+def main():
+    Display()
 
-print("My name is : ",name)
-print("My age is : ",age2)
-print("My Value is :",price)
- 
-print(name, age, price)
+if __name__ == "__main__":
+    main()

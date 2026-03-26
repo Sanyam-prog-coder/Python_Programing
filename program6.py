@@ -1,5 +1,18 @@
-a = 2
-b = 2
+def Display(iNo):
+    iCnt = 0
 
-sum = a + b
-print(sum)
+    while(iCnt < iNo):
+        print("*")
+
+        iCnt = iCnt + 1
+
+def main():
+    iValue = 0
+
+    print("Enter the Number : ")
+    iValue = int(input())
+
+    Display(iValue)
+
+if __name__ == "__main__":
+    main()
